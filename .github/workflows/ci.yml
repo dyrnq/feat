@@ -1,0 +1,30 @@
+name: ci
+
+on:
+  push:
+    paths-ignore:
+      - '**.md'
+      - '**.txt'
+  schedule:
+    - cron:  '0 */8 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Bash run
+        run: |
+          bash ./run.sh
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: dyrnq
+          author_email: dyrnq@qq.com
+          message: 'Commit changes'
+          add: '*.txt --force'
