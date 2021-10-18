@@ -29,3 +29,6 @@ https://github.com/helm/helm
 https://github.com/kubernetes-sigs/cri-tools
 https://github.com/containerd/nerdctl
 https://github.com/kubernetes-sigs/kustomize
+https://github.com/hashicorp/consul
+https://github.com/traefik/traefik
+https://github.com/coredns/coredns
