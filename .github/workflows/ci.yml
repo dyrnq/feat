@@ -20,11 +20,19 @@ jobs:
       - name: Bash run
         run: |
           bash ./run.sh
+          echo 'action_state<<EOF' >> $GITHUB_ENV
+          git status -s | awk '{print $2}' | xargs -r >> $GITHUB_ENV
+          echo 'EOF' >> $GITHUB_ENV
+
+      - name: Use the value
+        id: step_two
+        run: |
+          echo "${{ env.action_state }}"
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
         with:
           author_name: dyrnq
           author_email: dyrnq@qq.com
-          message: 'Commit changes'
+          message: '${{ env.action_state }}'
           add: '*.txt --force'
