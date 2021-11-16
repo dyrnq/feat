@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-while read -r line; do
+while read -r line || [ -n "$line" ]; do
     # from https://serverfault.com/questions/417241/extract-repository-name-from-github-url-in-bash
 
     if grep "," <<< "${line}" >& /dev/null; then
