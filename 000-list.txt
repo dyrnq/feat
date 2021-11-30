@@ -35,3 +35,5 @@ https://github.com/hashicorp/consul
 https://github.com/traefik/traefik
 https://github.com/coredns/coredns
 https://github.com/git-lfs/git-lfs
+https://github.com/prometheus/prometheus
+https://github.com/redis/redis
