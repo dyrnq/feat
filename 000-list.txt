@@ -37,3 +37,6 @@ https://github.com/coredns/coredns
 https://github.com/git-lfs/git-lfs
 https://github.com/prometheus/prometheus
 https://github.com/redis/redis
+https://github.com/Yelp/dumb-init
+https://github.com/krallin/tini
+https://github.com/tianon/gosu
