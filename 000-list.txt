@@ -42,3 +42,5 @@ https://github.com/krallin/tini
 https://github.com/tianon/gosu
 https://github.com/keptn/keptn
 https://github.com/harness/drone
+https://github.com/Eugeny/tabby
+https://github.com/longhorn/longhorn
