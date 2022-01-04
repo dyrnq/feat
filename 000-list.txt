@@ -48,3 +48,7 @@ https://github.com/go-gitea/gitea
 https://github.com/PowerShell/PowerShell
 https://github.com/cilium/cilium
 https://github.com/gitbucket/gitbucket
+https://github.com/BurntSushi/ripgrep
+https://github.com/mikefarah/yq
+https://github.com/sharkdp/fd
+https://github.com/ogham/exa
