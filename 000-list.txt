@@ -52,3 +52,13 @@ https://github.com/BurntSushi/ripgrep
 https://github.com/mikefarah/yq
 https://github.com/sharkdp/fd
 https://github.com/ogham/exa
+https://github.com/junegunn/fzf
+https://github.com/sharkdp/bat
+https://github.com/hashicorp/terraform
+https://github.com/hashicorp/vault
+https://github.com/rclone/rclone
+https://github.com/syncthing/syncthing
+https://github.com/filebrowser/filebrowser
+https://github.com/casbin/casbin
+https://github.com/bcicen/ctop
+https://github.com/Mirantis/cri-dockerd
