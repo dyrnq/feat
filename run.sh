@@ -25,9 +25,18 @@ while read -r line || [ -n "$line" ]; do
         fi
     fi
 
+    response_out=$(mktemp)
+    http_code=$(curl -fsSL -o "${response_out}" -w '%{http_code}' "https://api.github.com/repos/${user}/${repo}/releases?per_page=100")
+    
+    if [ "${http_code}" != "200" ]; then
+        # handle error
+        echo "Server returned: ${http_code}, url ${url}"
+        cat "${response_out}"
+    else
+        jq -r '.[].tag_name' "${response_out}" > "${shortname}".txt
+    fi
 
-    curl --retry 3 -fsSL "https://api.github.com/repos/${user}/${repo}/releases?per_page=100" | jq -r '.[].tag_name' > "${shortname}".txt
-
+    unset response_out
     unset shortname
     unset url
 done < 000-list.txt
