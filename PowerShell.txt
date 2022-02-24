@@ -2,8 +2,8 @@ v7.3.0-preview.1
 v7.2.1
 v7.2.0
 v7.2.0-rc.1
-v7.0.8
 v7.1.5
+v7.0.8
 v7.2.0-preview.10
 v7.2.0-preview.9
 v7.1.4
@@ -68,9 +68,9 @@ v6.2.0-preview.1
 v6.1.0
 v6.1.0-rc.1
 v6.0.4
-v6.1.0-preview.3
 v6.1.0-preview.4
 v6.0.3
+v6.1.0-preview.3
 v6.1.0-preview.2
 v6.1.0-preview.1
 v6.0.2
