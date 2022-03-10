@@ -1,3 +1,6 @@
+v0.10.0
+dockerfile/1.4.0-labs
+dockerfile/1.4.0
 v0.10.0-rc2
 dockerfile/1.4.0-rc2
 v0.10.0-rc1
