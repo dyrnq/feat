@@ -4,7 +4,6 @@ dockerfile/1.4.0
 v0.10.0-rc2
 dockerfile/1.4.0-rc2
 v0.10.0-rc1
-dockerfile/1.4.0-rc1
 v0.9.3
 v0.9.2
 v0.9.1
@@ -26,12 +25,9 @@ v0.8.0
 dockerfile/1.2.0-labs
 dockerfile/1.2.0
 v0.8.0-rc3
-v0.8.0-rc2
 v0.8.0-rc1
 dockerfile/1.2.0-rc1-labs
 dockerfile/1.2.0-rc1
-v0.7.2
-v0.7.1
 dockerfile/1.1.7
 v0.7.0
 v0.7.0-rc1
