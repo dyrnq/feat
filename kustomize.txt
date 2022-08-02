@@ -1,3 +1,5 @@
+kyaml/v0.13.9
+cmd/config/v0.10.9
 kyaml/v0.13.8
 kustomize/v4.5.6
 cmd/config/v0.10.8
@@ -96,5 +98,3 @@ kustomize/v3.8.10
 api/v0.7.3
 kyaml/v0.10.7
 cmd/config/v0.8.9
-api/v0.6.9
-kyaml/v0.10.6
