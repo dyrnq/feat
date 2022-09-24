@@ -13,6 +13,7 @@ v7.1.7
 v7.0.10
 v7.3.0-preview.3
 v7.2.2
+v7.1.6
 v7.0.9
 v7.3.0-preview.2
 v7.3.0-preview.1
@@ -30,6 +31,7 @@ v7.2.0-preview.7
 v7.2.0-preview.6
 v7.2.0-preview.5
 v7.2.0-preview.4
+v7.1.3
 v7.0.6
 v7.2.0-preview.3
 v7.1.2
@@ -63,7 +65,9 @@ v7.0.0-preview.6
 v7.0.0-preview.5
 v7.0.0-preview.4
 v6.2.3
+v6.1.6
 v7.0.0-preview.3
+v7.0.0-preview.2
 v6.2.2
 v6.1.5
 v7.0.0-preview.1
@@ -75,6 +79,7 @@ v6.1.3
 v6.2.0-preview.4
 v6.1.2
 v6.2.0-preview.3
+v6.2.0-preview.2
 v6.1.1
 v6.0.5
 v6.2.0-preview.1
@@ -87,14 +92,9 @@ v6.1.0-preview.3
 v6.1.0-preview.2
 v6.1.0-preview.1
 v6.0.2
+v6.0.1
 v6.0.0
 v6.0.0-rc.2
 v6.0.0-rc
 v6.0.0-beta.9
 v6.0.0-beta.8
-v6.0.0-beta.7
-v6.0.0-beta.6
-v6.0.0-beta.5
-v6.0.0-beta.4
-v6.0.0-beta.2
-v6.0.0-beta.1
