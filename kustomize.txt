@@ -1,6 +1,4 @@
 kyaml/v0.14.3
-kustomize/v5.1.0
-cmd/config/v0.11.3
 api/v0.14.0
 kustomize/v5.0.3
 api/v0.13.4
@@ -44,7 +42,6 @@ kyaml/v0.13.3
 kustomize/v4.5.1
 kustomize/v4.5.0
 cmd/config/v0.10.4
-api/v0.11.1
 kyaml/v0.13.2
 cmd/config/v0.10.3
 api/v0.11.0
@@ -54,13 +51,11 @@ kustomize/v4.4.1
 cmd/config/v0.10.2
 api/v0.10.1
 kustomize/v4.4.0
-kyaml/v0.12.0
 cmd/config/v0.10.1
 api/v0.10.0
 kyaml/v0.11.1
 kustomize/v4.3.0
 cmd/config/v0.10.0
-api/v0.9.0
 kyaml/v0.11.0
 kustomize/v4.2.0
 cmd/config/v0.9.13
@@ -80,7 +75,6 @@ api/v0.8.8
 api/v0.8.7
 kyaml/v0.10.17
 kustomize/v4.1.0
-cmd/config/v0.9.10
 api/v0.8.6
 cmd/config/v0.9.9
 cmd/config/v0.9.8
@@ -98,3 +92,9 @@ kustomize/v4.0.3
 api/v0.8.3
 kyaml/v0.10.12
 cmd/config/v0.9.4
+kyaml/v0.10.11
+kustomize/v4.0.2
+api/v0.8.2
+kustomize/v4.0.1
+kyaml/v0.10.10
+kustomize/v4.0.0
