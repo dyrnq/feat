@@ -8,6 +8,7 @@ dockerfile/1.6.0
 v0.12.0-rc2
 dockerfile/1.6.0-rc2-labs
 dockerfile/1.6.0-rc2
+v0.12.0-rc1
 dockerfile/1.6.0-rc1-labs
 dockerfile/1.6.0-rc1
 v0.11.6
