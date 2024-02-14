@@ -18,6 +18,7 @@ v7.3.6
 v7.2.13
 v7.4.0-preview.4
 v7.3.5
+v7.2.12
 v7.4.0-preview.3
 v7.3.4
 v7.2.11
@@ -55,6 +56,7 @@ v7.3.0-preview.1
 v7.2.1
 v7.2.0
 v7.2.0-rc.1
+v7.1.5
 v7.0.8
 v7.2.0-preview.10
 v7.2.0-preview.9
@@ -96,5 +98,3 @@ v6.2.4
 v7.0.0-rc.2
 v7.0.0-rc.1
 v7.0.0-preview.6
-v7.0.0-preview.5
-v7.0.0-preview.4
