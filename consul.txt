@@ -1,4 +1,7 @@
 v1.18.2
+ent-changelog-1.17.5
+ent-changelog-1.16.8
+ent-changelog-1.15.12
 v1.18.1
 ent-changelog-1.17.4
 ent-changelog-1.16.7
@@ -95,6 +98,3 @@ v1.9.12
 v1.8.18
 v1.11.0-rc
 v1.11.0-beta3
-v1.10.4
-v1.9.11
-v1.8.17
