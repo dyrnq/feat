@@ -62,3 +62,6 @@ https://github.com/filebrowser/filebrowser
 https://github.com/casbin/casbin
 https://github.com/bcicen/ctop
 https://github.com/Mirantis/cri-dockerd
+https://github.com/adoptium/temurin8-binaries
+https://github.com/adoptium/temurin11-binaries
+https://github.com/adoptium/temurin21-binaries
