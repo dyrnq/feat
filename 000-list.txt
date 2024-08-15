@@ -64,4 +64,9 @@ https://github.com/bcicen/ctop
 https://github.com/Mirantis/cri-dockerd
 https://github.com/adoptium/temurin8-binaries
 https://github.com/adoptium/temurin11-binaries
+https://github.com/adoptium/temurin17-binaries
 https://github.com/adoptium/temurin21-binaries
+https://github.com/corretto/corretto-8
+https://github.com/corretto/corretto-11
+https://github.com/corretto/corretto-17
+https://github.com/corretto/corretto-21
