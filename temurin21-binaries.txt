@@ -1,3 +1,4 @@
+jdk-21.0.6+7
 jdk-21.0.5+11
 jdk-21.0.4+7
 jdk-21.0.3+9
@@ -97,4 +98,3 @@ jdk-21.0.3+7-ea-beta
 jdk-21.0.3+6-ea-beta
 jdk-21.0.3+5-ea-beta
 jdk-21.0.3+4-ea-beta
-jdk-21.0.3+3-ea-beta
