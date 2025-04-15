@@ -1,4 +1,7 @@
+v0.21.0
 v0.21.0-rc2
+dockerfile/1.15.0-labs
+dockerfile/1.15.0
 dockerfile/1.15.0-rc2-labs
 dockerfile/1.15.0-rc2
 v0.21.0-rc1
@@ -95,6 +98,3 @@ dockerfile/1.7.0-rc1-labs
 dockerfile/1.7.0-rc1
 v0.13.0-rc1
 v0.13.0-beta3
-v0.12.5
-v0.13.0-beta2
-v0.12.4
