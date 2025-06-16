@@ -72,6 +72,7 @@ jdk21-2023-06-13-11-11-beta
 jdk21-2023-06-13-07-44-beta
 jdk21-2023-06-10-06-25-beta
 jdk21-2023-06-09-14-54-beta
+jdk-21.0.8+6-ea-beta
 jdk-21.0.8+5-ea-beta
 jdk-21.0.8+4-ea-beta
 jdk-21.0.8+3-ea-beta
@@ -97,4 +98,3 @@ jdk-21.0.5+4-ea-beta
 jdk-21.0.5+3-ea-beta
 jdk-21.0.5+2-ea-beta
 jdk-21.0.5+1-ea-beta
-jdk-21.0.4+7-ea-beta
