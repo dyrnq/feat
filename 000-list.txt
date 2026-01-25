@@ -66,9 +66,17 @@ https://github.com/adoptium/temurin8-binaries
 https://github.com/adoptium/temurin11-binaries
 https://github.com/adoptium/temurin17-binaries
 https://github.com/adoptium/temurin21-binaries
+https://github.com/adoptium/temurin25-binaries
 https://github.com/corretto/corretto-8
 https://github.com/corretto/corretto-11
 https://github.com/corretto/corretto-17
 https://github.com/corretto/corretto-21
+https://github.com/corretto/corretto-25
 https://github.com/apache/flink-cdc
 https://github.com/apache/doris
+https://github.com/eza-community/eza
+https://github.com/koalaman/shellcheck
+https://github.com/regclient/regclient
+https://github.com/TomWright/dasel
+https://github.com/sibprogrammer/xq
+https://github.com/atkrad/wait4x
