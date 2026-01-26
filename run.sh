@@ -19,7 +19,10 @@ done
 authorization_cmd=""
 
 if [ ! "${authorization}x" = "x" ]; then
-    authorization_cmd="--header \"Authorization: Bearer ${authorization}\""
+    authorization_cmd=(
+    --header
+    "Authorization: Bearer ${authorization}"
+    )
 fi
 
 while read -r line || [ -n "$line" ]; do
@@ -50,7 +53,7 @@ while read -r line || [ -n "$line" ]; do
 
     response_out=$(mktemp)
     set -x;
-    http_code=$(curl -fsSL ${authorization_cmd} -o "${response_out}" -w '%{http_code}' "https://api.github.com/repos/${user}/${repo}/releases?per_page=100")
+    http_code=$(curl -fsSL "${authorization_cmd[@]}" -o "${response_out}" -w '%{http_code}' "https://api.github.com/repos/${user}/${repo}/releases?per_page=100")
     set +x;
     if [ "${http_code}" != "200" ]; then
         # handle error
