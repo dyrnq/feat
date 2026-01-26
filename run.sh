@@ -49,8 +49,9 @@ while read -r line || [ -n "$line" ]; do
     fi
 
     response_out=$(mktemp)
+    set -x;
     http_code=$(curl -fsSL ${authorization_cmd} -o "${response_out}" -w '%{http_code}' "https://api.github.com/repos/${user}/${repo}/releases?per_page=100")
-    
+    set +x;
     if [ "${http_code}" != "200" ]; then
         # handle error
         echo "Server returned: ${http_code}, url ${url}"
