@@ -1,4 +1,27 @@
 #!/usr/bin/env bash
+
+authorization="${authorization:-}"
+file="${file:-000-list.txt}"
+while [ $# -gt 0 ]; do
+    case "$1" in
+        --authorization|--auth|-A)
+            authorization="$2"
+            shift
+            ;;
+        --*)
+            echo "Illegal option $1"
+            ;;
+    esac
+    shift $(( $# > 0 ? 1 : 0 ))
+done
+
+
+authorization_cmd=""
+
+if [ ! "${authorization}x" = "x" ]; then
+    authorization_cmd="--header \"Authorization: Bearer ${authorization}\""
+fi
+
 while read -r line || [ -n "$line" ]; do
     # from https://serverfault.com/questions/417241/extract-repository-name-from-github-url-in-bash
 
@@ -26,7 +49,7 @@ while read -r line || [ -n "$line" ]; do
     fi
 
     response_out=$(mktemp)
-    http_code=$(curl -fsSL -o "${response_out}" -w '%{http_code}' "https://api.github.com/repos/${user}/${repo}/releases?per_page=100")
+    http_code=$(curl -fsSL ${authorization_cmd} -o "${response_out}" -w '%{http_code}' "https://api.github.com/repos/${user}/${repo}/releases?per_page=100")
     
     if [ "${http_code}" != "200" ]; then
         # handle error
@@ -39,7 +62,7 @@ while read -r line || [ -n "$line" ]; do
     unset response_out
     unset shortname
     unset url
-done < 000-list.txt
+done < "${file}"
 
 
 

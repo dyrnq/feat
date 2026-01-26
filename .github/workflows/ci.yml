@@ -19,7 +19,8 @@ jobs:
 
       - name: Bash run
         run: |
-          bash ./run.sh
+          ## https://docs.github.com/en/actions/tutorials/authenticate-with-github_token#permissions-for-the-github_token
+          bash ./run.sh --authorization "${{ secrets.GITHUB_TOKEN }}"
           echo 'action_state<<EOF' >> $GITHUB_ENV
           git status -s | awk '{print $2}' | xargs -r >> $GITHUB_ENV
           echo 'EOF' >> $GITHUB_ENV
