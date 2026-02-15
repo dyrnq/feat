@@ -16,6 +16,7 @@ jdk25u-2025-11-25-12-15-beta
 jdk25u-2025-11-24-16-43-beta
 jdk25u-2025-11-17-18-58-beta
 jdk25u-2025-11-10-15-46-beta
+jdk-25.0.3+2-ea-beta
 jdk-25.0.3+1-ea-beta
 jdk-25.0.2+10-ea-beta
 jdk-25.0.1+8-ea-beta
