@@ -50,7 +50,7 @@ while read -r line || [ -n "$line" ]; do
             shortname=$repo
         fi
     fi
-
+    echo "######################################### ${url} begin ###################################"
     response_out=$(mktemp)
     set -x;
     http_code=$(curl -fsSL "${authorization_cmd[@]}" -o "${response_out}" -w '%{http_code}' "https://api.github.com/repos/${user}/${repo}/releases?per_page=100")
@@ -60,9 +60,12 @@ while read -r line || [ -n "$line" ]; do
         echo "Server returned: ${http_code}, url ${url}"
         cat "${response_out}"
     else
-        jq -r '.[].tag_name' "${response_out}" > "${shortname}".txt
+        ## Pre-check response json
+        if jq -r '.[].tag_name' "${response_out}"; then
+            jq -r '.[].tag_name' "${response_out}" > "${shortname}".txt
+        fi
     fi
-
+    echo "######################################### ${url} end ###################################"
     unset response_out
     unset shortname
     unset url
