@@ -79,4 +79,6 @@ https://github.com/koalaman/shellcheck
 https://github.com/regclient/regclient
 https://github.com/TomWright/dasel
 https://github.com/sibprogrammer/xq
-https://github.com/atkrad/wait4x
+https://github.com/wait4x/wait4x
+https://github.com/cloudflare/cloudflared
+https://github.com/k3s-io/k3s
