@@ -54,21 +54,29 @@ while read -r line || [ -n "$line" ]; do
     response_out=$(mktemp)
     set -x;
     http_code=$(curl -fsSL "${authorization_cmd[@]}" -o "${response_out}" -w '%{http_code}' "https://api.github.com/repos/${user}/${repo}/releases?per_page=100")
-    set +x;
+
     if [ "${http_code}" != "200" ]; then
         # handle error
         echo "Server returned: ${http_code}, url ${url}"
         cat "${response_out}"
     else
         ## Pre-check response json
-        if jq -r '.[].tag_name' "${response_out}"; then
+
+
+        if [[ $(stat -c%s "${response_out}") -eq 0 ]]; then
+            echo "skip ${shortname}"
+        else
             jq -r '.[].tag_name' "${response_out}" > "${shortname}".txt
         fi
+
+
     fi
+    set +x;
     echo "######################################### ${url} end ###################################"
     unset response_out
     unset shortname
     unset url
+    unset http_code
 done < "${file}"
 
 
