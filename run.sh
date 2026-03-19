@@ -69,6 +69,9 @@ while read -r line || [ -n "$line" ]; do
             ## jq: parse error: Unfinished JSON term at EOF at line 5212, column 4
             if jq -r '.[].tag_name' "${response_out}" >/dev/null 2>&1; then
                 jq -r '.[].tag_name' "${response_out}" > "${shortname}".txt
+            else
+                echo "skip ${shortname}"
+                cat "${response_out}"
             fi
         fi
 
