@@ -1,3 +1,6 @@
+v0.29.0
+dockerfile/1.23.0-labs
+dockerfile/1.23.0
 v0.29.0-rc1
 v0.28.1
 dockerfile/1.23.0-rc1-labs
@@ -95,6 +98,3 @@ v0.20.0-rc1
 dockerfile/1.14.0-rc1-labs
 dockerfile/1.14.0-rc1
 v0.19.0
-dockerfile/1.13.0-labs
-dockerfile/1.13.0
-v0.19.0-rc3
