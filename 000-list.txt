@@ -82,3 +82,4 @@ https://github.com/sibprogrammer/xq
 https://github.com/wait4x/wait4x
 https://github.com/cloudflare/cloudflared
 https://github.com/k3s-io/k3s
+https://github.com/k3s-io/kine
