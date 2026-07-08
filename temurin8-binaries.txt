@@ -14,6 +14,7 @@ jdk8u382-b05
 jdk8u372-b07
 jdk8u362-b09
 jdk8u352-b08
+jdk8u502-b06-ea-beta
 jdk8u502-b05-ea-beta
 jdk8u502-b04-ea-beta
 jdk8u502-b03-ea-beta
@@ -97,4 +98,3 @@ jdk8u-2024-01-18-20-04-beta
 jdk8u-2024-01-17-18-24-beta
 jdk8u-2024-01-16-09-56-beta
 jdk8u-2024-01-15-18-20-beta
-jdk8u-2024-01-13-17-39-beta
