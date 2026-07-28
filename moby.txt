@@ -1,4 +1,5 @@
 client/v0.5.1
+docker-v29.7.0-rc.1
 docker-v29.6.2
 docker-v29.6.1
 docker-v29.6.0
@@ -97,4 +98,3 @@ v27.5.0-rc.2
 v27.5.0-rc.1
 v27.4.1
 v27.4.0
-v25.0.7
