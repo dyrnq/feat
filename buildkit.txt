@@ -1,3 +1,4 @@
+v0.35.0-rc2
 v0.35.0-rc1
 dockerfile/1.29.0-rc1-labs
 dockerfile/1.29.0-rc1
@@ -97,4 +98,3 @@ dockerfile/1.18.0-labs
 dockerfile/1.18.0
 v0.24.0-rc2
 dockerfile/1.18.0-rc2-labs
-dockerfile/1.18.0-rc2
